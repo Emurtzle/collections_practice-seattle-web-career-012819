@@ -47,3 +47,13 @@ def sum_array(array)
   end
   total
 end
+
+def add_s(array)
+  index = 0;
+  array.each do |element|
+    if index != 1
+      element.concat("s")
+    end
+    index+=1
+  end
+end
