@@ -38,3 +38,11 @@ def find_a(array)
   end
   new_array
 end
+
+def sum_array(array)
+  total = 0
+
+  array.each do |element|
+    total += element
+  end
+end
