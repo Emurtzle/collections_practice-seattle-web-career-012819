@@ -31,6 +31,8 @@ end
 
 def find_a(array)
   array.map do |element|
-    element[0].downcase == "a"
+    if element[0].downcase == "a"
+      element
+    end
   end
 end
