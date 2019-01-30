@@ -30,7 +30,7 @@ def kesha_maker(array)
 end
 
 def find_a(array)
-  array.map do |element|
+  array.collect do |element|
     if element[0].downcase == "a"
       element
     end
