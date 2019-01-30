@@ -30,9 +30,10 @@ def kesha_maker(array)
 end
 
 def find_a(array)
-  array.collect do |element|
+  new_array = []
+  array.each do |element|
     if element[0].downcase == "a"
-      element
+      new_array << element
     end
   end
 end
